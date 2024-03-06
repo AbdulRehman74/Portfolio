@@ -1,6 +1,7 @@
 .layout{
   width: 375px;
   height: 696px;
+  margin: 0;
 }
 
 .header-section{
@@ -105,6 +106,7 @@ height: 75px;
   position: relative;
   top: 60px;
   margin-left: 4%;
+  border: 1px;
 }
 
 .section {
@@ -166,4 +168,31 @@ height: 75px;
   line-height: 44px;
   letter-spacing: 0em;
   text-align: left;
+}
+
+.skills{
+  display: flex;
+  width: 236px;
+  height: 32px;
+}
+
+.client{
+  width: 55px;
+  height: 32px;
+  padding: 8px,0px,8px,0px;
+}
+
+.client-text{
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.counter{
+  width: 33px;
+  height: 32px;
+  
 }
