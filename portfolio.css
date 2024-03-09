@@ -172,7 +172,7 @@ height: 75px;
   display: flex;
   width: 236px;
   height: 32px;
-  margin: 0;
+  margin : 12px,0px,0px,0px;
   padding: 0;
   list-style-type: none; /* Remove default list style */
 }
