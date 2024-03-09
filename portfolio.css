@@ -174,14 +174,14 @@ height: 75px;
   height: 32px;
   margin : 12px,0px,0px,0px;
   padding: 0;
-  list-style-type: none; /* Remove default list style */
+  list-style-type: none; 
 }
 
 .client,
 .role,
 .year {
-  display: flex; /* Ensure flex behavior for positioning */
-  align-items: center; /* Vertically center text */
+  display: flex; 
+  align-items: center; 
 }
 
 .client-text,
@@ -195,12 +195,17 @@ height: 75px;
   text-align: left;
 }
 
+.role-text,.year-text {
+  color: #7A869A;
+}
+
+
 .counter {
   width: 33px;
   height: 32px;
-  display: flex; /* Ensure flex behavior for positioning */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 .counter:before {
@@ -208,26 +213,17 @@ height: 75px;
   width: 8px;
   height: 8px;
   background-color: #C1C7D0;
-  border-radius: 50%; /* To make it a circle */
+  border-radius: 50%; 
 }
 
 .client .counter:before {
-  margin-left: 55px; /* Adjust for client width */
+  margin-left: 55px; 
 }
 
 .role .counter:before {
-  margin-left: 88px; /* Adjust for role width */
+  margin-left: 88px; 
 }
 
 .year .counter:before {
-  margin-left: 29px; /* Adjust for year width */
+  margin-left: 29px; 
 }
-
-/* Prevent wrapping for role text */
-.role-text,.year-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  color: #7A869A;
-}
-
