@@ -216,14 +216,3 @@ height: 75px;
   border-radius: 50%; 
 }
 
-.client .counter:before {
-  margin-left: 55px; 
-}
-
-.role .counter:before {
-  margin-left: 88px; 
-}
-
-.year .counter:before {
-  margin-left: 29px; 
-}
