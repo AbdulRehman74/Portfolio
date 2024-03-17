@@ -381,14 +381,23 @@ body {
   background-color: white;
 }
 
+.myself{
+  width: 375px;
+  height: 1263px;
+  top: 2810px;
+  position: relative;
+  background-color: white;
+  border-top-right-radius: 100px;
+}
+
 .about {
   width: 375px;
   height: 1062.15px;
   padding: 114px, 24px, 114px, 24px;
   gap: 24px;
-  top: 3506px;
   position: absolute;
   background-color: white;
+  top: 0%;
   border-top-right-radius: 100px;
 }
 
@@ -580,4 +589,56 @@ body {
   justify-content: center;
   position: relative;
   border-bottom: 1px solid #DFE1E6; 
+}
+
+.contact{
+  width: 375px;
+  height: 779px;
+  position: relative;
+  top: 2670px;
+  background-color: #6070FF;
+  border-top-left-radius: 100px;
+}
+
+.form-img{
+  background-image: url(contact.png);
+  width: 265px;
+  height: 709px;
+  margin-left: 110px;
+  margin-top: 20px;
+  position: absolute;
+}
+
+.contact-me{
+  width: 375px;
+  height: 56px;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.contact-me p{
+  margin: 0%;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.contact-text {
+  width: 327px;
+  height: 137px;
+  margin-top: 160px;
+  position: absolute;
+  left: 16px; 
+}
+
+.contact-text p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #EBEBFF;
+  text-align: center;
 }
