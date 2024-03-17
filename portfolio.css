@@ -212,6 +212,7 @@ body {
 .role-text,
 .year-text {
   color: #7A869A;
+  white-space: nowrap;
 }
 
 
@@ -488,7 +489,7 @@ body {
   justify-content: center;
 }
 
-.lang,.frame,.skills {
+.lang,.frame,.skill {
   width: 237px;
   height: 24px;
   margin: 0%;
