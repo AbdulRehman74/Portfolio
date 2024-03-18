@@ -642,3 +642,59 @@ body {
   color: #EBEBFF;
   text-align: center;
 }
+
+.input-form {
+  width: 327px;
+  position: absolute;
+  margin-top: 370px;
+  left: 24px;
+}
+
+.input-field {
+  width: 100%;
+  height: 48px;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.message-field {
+  width: 327px;
+  height: 170px;
+}
+
+.intouch{
+  width: 162px;
+  height: 48px;
+  border-radius: 8px;
+  border: 1px solid ;
+  background-color: #FFFFFF;
+  color: #6070FF;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  align-items: center; 
+  margin-top: 680px;
+  margin-left: 24px;
+}
+
+.foot{
+  width: 375px;
+  height: 34px;
+  margin-top: 16px;
+}
+
+.black-line {
+  width: 134px;
+  height: 5px;
+  background-color: black;
+  position: absolute;
+  left: 120px;
+  top: 770px;
+}
