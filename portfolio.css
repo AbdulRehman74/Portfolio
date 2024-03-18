@@ -4,7 +4,7 @@ body {
   margin: 0%;
 }
 
-.layout{
+.layout {
   width: 375px;
   height: 696px;
   padding: 0%;
@@ -381,7 +381,7 @@ body {
   background-color: white;
 }
 
-.myself{
+.myself {
   width: 375px;
   height: 1263px;
   top: 2810px;
@@ -417,7 +417,7 @@ body {
   gap: 12px;
 }
 
-.heading{
+.heading {
   width: 327px;
   height: 35px;
   font-size: 40px;
@@ -428,7 +428,7 @@ body {
   top: 0px;
 }
 
-.para{
+.para {
   font-size: 16px;
   text-align: left;
   color: #172B4D;
@@ -439,13 +439,14 @@ body {
   height: 147px;
 }
 
-.links{
+.links {
   width: 200px;
   height: 80px;
   position: absolute;
   gap: 16px;
 }
-.letconnect{
+
+.letconnect {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -453,17 +454,17 @@ body {
   width: 327px;
 }
 
-.nomargin{
+.nomargin {
   margin: 0%;
 }
 
-.socials2{
+.socials2 {
   margin-top: 24px;
   display: flex;
   gap: 20px;
 }
 
-.resume{
+.resume {
   width: 162px;
   height: 48px;
   border-radius: 8px;
@@ -474,23 +475,23 @@ body {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-  align-items: center; 
+  align-items: center;
   margin-top: 100px;
 }
 
-.languages{
+.languages {
   width: 327px;
   height: 464.15px;
   padding: 0px 24px;
   margin-top: 25px;
 }
 
-.tab1{
+.tab1 {
   width: 327px;
   height: 320.15px;
 }
 
-.container{
+.container {
   width: 327px;
   height: 72px;
   display: flex;
@@ -498,7 +499,9 @@ body {
   justify-content: center;
 }
 
-.lang,.frame,.skill {
+.lang,
+.frame,
+.skill {
   width: 237px;
   height: 24px;
   margin: 0%;
@@ -522,10 +525,10 @@ body {
 }
 
 .arrow span {
-  font-size: 20px; 
+  font-size: 20px;
 }
 
-.names{
+.names {
   display: flex;
   width: 327px;
   height: 248.15px;
@@ -536,47 +539,48 @@ body {
   margin-top: 24px;
 }
 
-.js,.html,
-.css{
+.js,
+.html,
+.css {
   width: 303px;
   height: 66.72px;
   border-radius: 8px;
   display: flex;
-  background-color:#f7f7f9;
+  background-color: #f7f7f9;
   align-items: center;
 }
 
 
-.js-img{
+.js-img {
   background-image: url(js.png);
   width: 48px;
   height: 48px;
-  border: 1px ;
+  border: 1px;
 }
 
-.js p{
+.js p {
   margin-left: 16px;
 }
 
-.html-img{
+.html-img {
   background-image: url(html.png);
   width: 48px;
   height: 48px;
-  border: 1px ;
+  border: 1px;
 }
 
-.html p{
+.html p {
   margin-left: 16px;
 }
 
-.css-img{
+.css-img {
   background-image: url(css.png);
   width: 48px;
   height: 48px;
-  border: 1px ;
+  border: 1px;
 }
 
-.css p{
+.css p {
   margin-left: 16px;
 }
 
@@ -588,10 +592,10 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  border-bottom: 1px solid #DFE1E6; 
+  border-bottom: 1px solid #DFE1E6;
 }
 
-.contact{
+.contact {
   width: 375px;
   height: 779px;
   position: relative;
@@ -600,7 +604,7 @@ body {
   border-top-left-radius: 100px;
 }
 
-.form-img{
+.form-img {
   background-image: url(contact.png);
   width: 265px;
   height: 709px;
@@ -609,14 +613,14 @@ body {
   position: absolute;
 }
 
-.contact-me{
+.contact-me {
   width: 375px;
   height: 56px;
   position: absolute;
   margin-top: 100px;
 }
 
-.contact-me p{
+.contact-me p {
   margin: 0%;
   font-size: 40px;
   font-weight: 700;
@@ -631,7 +635,7 @@ body {
   height: 137px;
   margin-top: 170px;
   position: absolute;
-  left: 16px; 
+  left: 16px;
 }
 
 .contact-text p {
@@ -668,21 +672,21 @@ body {
   height: 170px;
 }
 
-.intouch{
+.intouch {
   width: 162px;
   height: 48px;
   border-radius: 8px;
-  border: 1px solid ;
+  border: 1px solid;
   background-color: #FFFFFF;
   color: #6070FF;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.03em;
-  align-items: center; 
+  align-items: center;
 }
 
-.foot{
+.foot {
   width: 375px;
   height: 34px;
   margin-top: 16px;
