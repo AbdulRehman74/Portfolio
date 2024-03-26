@@ -54,6 +54,9 @@ body {
   padding: 114px, 24px, 114px, 24px;
   gap: 12px;
   border-bottom-left-radius: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .intro {
@@ -64,7 +67,7 @@ body {
   word-spacing: 20%;
   text-align: left;
   color: #172B4D;
-  padding-top: 10%;
+  padding-top: 25%;
   margin-left: 4%;
   width: 250px;
 }
@@ -327,6 +330,8 @@ body {
 .sec2 {
   margin: 0%;
   padding: 0%;
+  height: 80px;
+  width: 200px;
 }
 
 .text2 {
@@ -699,4 +704,261 @@ body {
   position: absolute;
   left: 120px;
   top: 770px;
+}
+
+@keyframes fadeInEffect {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro, .description,.connect,.socials {
+  animation-name: fadeInEffect;
+  animation-duration: 2s; 
+  animation-fill-mode: both; 
+  animation-timing-function: ease-in-out; 
+}
+
+.intro h3{
+  padding: 0%;
+}
+
+.snapshot {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  cursor: pointer; 
+}
+
+.snapshot:hover, .snapshot:focus {
+  transform: scale(1.05); 
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2); 
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.content {
+  animation: slideInRight 1s ease-in-out forwards;
+}
+
+.content2 {
+  animation: slideInLeft 1s ease-in-out forwards;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .layout {
+    width: 100%;
+    height: 100vh;
+    border-bottom-left-radius: 160px;
+
+  }
+
+  .header-section {
+    width: 100%;
+    display: flex;
+  }
+
+  .header {
+    width: 100%;
+    padding: 20px 100px;
+  }
+
+  .headline-section {
+    width: 100vw;
+    background-image: url(headerbg.png);
+    background-size: contain;
+  }
+
+  .intro {
+    padding-left: 150px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
+  }
+
+  .intro h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0%;
+    width: max-content;
+  }
+
+  .description,
+  .connect,
+  .socials {
+    font-size: 20px;
+    text-align: left;
+    width: 820px;
+    padding-left: 150px;
+  }
+
+  .work {
+    height: fit-content;
+  }
+
+  .section1,
+  .section2,
+  .section3,
+  .section4 {
+    width: 1156px;
+    padding: 0px 100px;
+    height: 496px;
+  }
+
+  .snapshot1,
+  .snapshot3 {
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-right: 750px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .snapshot2,
+  .snapshot4 {
+    width: 544px;
+    height: 448px;
+    margin: 0%;
+    margin-left: 750px;
+    margin-top: 20px;
+    position: absolute;
+  }
+
+  .snapshot1 {
+    background-image: url('websnap1.png');
+  }
+
+  .snapshot2 {
+    background-image: url('websnap2.png');
+  }
+
+  .snapshot3 {
+    background-image: url('websnap3.png');
+  }
+
+  .snapshot4 {
+    background-image: url('websnap4.png');
+  }
+
+  .content {
+    margin-left: 650px;
+    margin-top: 50px;
+  }
+
+  .content2 {
+    margin-right: 650px;
+    margin-top: 40px;
+  }
+
+  .myself {
+    width: 100%;
+    top: 2510px;
+    height: 524px;
+  }
+
+  .about {
+    width: 100%;
+    height: 524px;
+    position: relative;
+  }
+
+  .about-myself {
+    margin-left: 150px;
+    position: absolute;
+  }
+
+  .languages {
+    margin-left: 800px;
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .names {
+    flex-direction: row;
+    height: min-content;
+  }
+
+  .tab1 {
+    height: 200px;
+  }
+
+  .contact {
+    top: 3730px;
+    position: absolute;
+    width: 100%;
+    height: 720px;
+  }
+
+  .form-img {
+    background-image: url(contactwebbg.png);
+    width: 100%;
+    margin: 0%;
+    background-size: contain;
+  }
+
+  .contact-me,
+  .contact-text,
+  .input-form {
+    margin-left: 512px;
+  }
+
+  .black-line {
+    display: none;
+  }
+
+  .contact-text {
+    display: block;
+    width: 569px;
+    margin-left: 450px;
+  }
+
+  .contact-text p {
+    display: inline;
+    line-height: 1.6;
+    width: 569px;
+  }
+
+  .input-form {
+    margin-top: 300px;
+  }
+
+  .text-area {
+    display: block;
+    width: 496px;
+  }
+
+  .caption {
+    display: inline;
+    line-height: 1.6;
+    width: 569px;
+  }
+
+  .sec2 {
+    width: 300px;
+  }
+
 }
