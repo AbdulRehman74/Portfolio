@@ -11,10 +11,20 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+        
 </head>
 
 <body>
-    <section class="layout">
+    <section class="layout" id="portfolio">
+        <div class="menu">
+            <div class="cross">&#x2716;</div>
+            <ul class="menu-list">
+                <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu-item"><a href="#about">About</a></li>
+                <li class="menu-item"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          
         <div class="header-section">
             <div class="header">
                 <div>
@@ -23,6 +33,7 @@
                 <div class="menu-bar"></div>
             </div>
         </div>
+        
 
         <header class="headline-section">
             <div class="intro">
@@ -195,7 +206,7 @@
         </div>
     </div>
     <section class="myself">
-        <div class="about">
+        <div class="about" id="about">
             <section class="about-myself">
                 <div class="heading">
                     <p>About Myself</p>
@@ -258,7 +269,7 @@
             </section>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="form-img"></div>
         <div class="contact-me">
             <p>Contact me</p>
@@ -281,6 +292,34 @@
             <div class="black-line"></div>
         </footer>
     </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var menuBar = document.querySelector('.menu-bar');
+          var menu = document.querySelector('.menu');
+          var cross = document.querySelector('.cross');
+          var menuItems = document.querySelectorAll('.menu-item a'); // Get all anchor tags within .menu-item
+      
+          function openMenu() {
+            menu.style.display = 'flex';
+          }
+      
+          function closeMenu() {
+            menu.style.display = 'none';
+          }
+      
+          menuBar.addEventListener('click', openMenu);
+          cross.addEventListener('click', closeMenu);
+      
+          // Add click event to each menu item
+          menuItems.forEach(function(item) {
+            item.addEventListener('click', closeMenu);
+          });
+        });
+      </script>
+      
+      
+      
+      
 </body>
 
 </html>
